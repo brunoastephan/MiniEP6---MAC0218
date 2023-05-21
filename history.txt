@@ -1,0 +1,2 @@
+sudo docker image build . -t miniep6-image
+sudo docker container run --name miniep6-container -p 8080:80 -d miniep6-image
